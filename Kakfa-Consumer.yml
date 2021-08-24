@@ -7,8 +7,8 @@ spring:
       topic: myTopic
       groupID: mygroup
       bootstrap-server: localhost:9092
-      key-deserializer: org.apache.kafka.common.serialization.StringDeSerializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeSerializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 
 logging:
