@@ -1,0 +1,16 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  kafka:
+    comsumer:
+      topic: myTopic
+      groupID: mygroup
+      bootstrap-server: localhost:9092
+      key-deserializer: org.apache.kafka.common.serialization.StringDeSerializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeSerializer
+
+
+logging:
+  level:
+    root: info
