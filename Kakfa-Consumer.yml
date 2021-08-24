@@ -3,7 +3,7 @@ spring:
     ansi:
       enabled: always
   kafka:
-    comsumer:
+    consumer:
       topic: myTopic
       groupID: mygroup
       bootstrap-server: localhost:9092
